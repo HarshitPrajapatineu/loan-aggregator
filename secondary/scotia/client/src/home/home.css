@@ -1,0 +1,162 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 12px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #333333;
+}
+
+th {
+    background-color: #4e4d4d;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #d6d6d6;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.back-button {
+    display: inline-block;
+    font-family: Helvetica, sans-serif !important;
+    padding: 6px 16px;
+    background: #747474;
+    margin-left: 12px #fff;
+    border: 0px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background .2s ease-in-out;
+    cursor: pointer;
+}
+
+.menu-button {
+    margin-left: 12px;
+}
+
+.menu-container {
+    justify-content: left;
+    width: 90%;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    margin: 10px auto;
+}
+
+.registration-form {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    margin: 32px auto;
+    width: 85vh;
+}
+
+.block {
+    width: calc(48% - 20px);
+    margin: 0.25em 1em 1em 1em;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.submit {
+    width: 100%;
+    margin: 0px 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.action-button {
+    display: inline-block;
+    padding: 4px 12px;
+    background: #497fb6;
+    color: #fff;
+    border: 0px;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 4px;
+
+}
+
+.accept {
+    background: #60c5d6;
+}
+
+.reject {
+    background: #497fb6;
+}
+
+.menu-container {
+	justify-content: right;
+	width: 100%;
+	position: relative;
+	display: flex;
+	/* align-items: center; */
+	margin: 10px auto;
+}
+
+
+.menu-button {
+	margin-left: 12px;
+}
+
+.create-post-button {
+	display: inline-block;
+	padding: 16px 24px;
+	background: #3176b6;
+	margin-left: 12px;
+	color: #fff;
+	border: 0px;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: background .2s ease-in-out;
+	cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.login-form {
+  background-color: #333333;
+  color: #d6d6d6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  margin: 140px auto;
+  width: 500px;
+}
+
+.form-control {
+  color: #d6d6d6;
+  background-color: #333333;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submit {
+  width: calc(96% - 8px);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
